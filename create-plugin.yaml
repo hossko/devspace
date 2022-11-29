@@ -1,0 +1,11 @@
+name: create-plugin
+version: 0.0.4
+commands:
+  - name: "create"
+    usage: "Create DevSpace project files based on values from local .env file "
+    description: "Create DevSpace project files based on values from local .env file "
+
+binaries:
+  - os: linux
+    arch: amd64
+    path: https://devspace.eu-central-1.linodeobjects.com/create-plugin
